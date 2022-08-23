@@ -1,2 +1,17 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Sets Of Operations
+E={0,2,4,8,6}
+N={2,4,1,3,5}
+C=E.union(N)
+D=E.intersection(N)
+X=E.difference(N)
+Y=E.symmetric_difference(N)
+# Union of two sets 
+print("The Union of E and N is", C)
+# Intersection of two sets 
+print("The intersection of E and N is", D)
+# Difference of two sets
+print("The differnece of E and N is", X)
+# Symmetric Difference of two sets
+print("The  symmetric differnece of E and N is", Y)
